@@ -1,0 +1,18 @@
+# Dependencies
+node_modules/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files (Windows)
+Thumbs.db
+Desktop.ini
+
+# Editor
+.vscode/
+.idea/

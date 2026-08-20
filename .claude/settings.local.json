@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node --check game.js)",
+      "Bash(python *)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:8080/index.html)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:8080/game.js)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:8080/node_modules/phaser/dist/phaser.min.js)"
+    ]
+  }
+}
